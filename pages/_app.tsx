@@ -42,7 +42,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             "Hey! I'm Cardin, a backend developer and a student",
           images: [
             {
-              url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
+              url: "https://media.discordapp.net/attachments/953754034630717454/999515622801158304/image0_13.jpg?width=890&height=890",
               width: 800,
               height: 420,
               alt: "Cardin | Backend Developer",
