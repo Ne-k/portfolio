@@ -42,10 +42,10 @@ function MyApp({ Component, pageProps }: AppProps) {
             "Hey! I'm Cardin, a backend developer and a student",
           images: [
             {
-              url: "https://media.discordapp.net/attachments/953754034630717454/999515622801158304/image0_13.jpg?width=890&height=890",
-              width: 800,
-              height: 420,
-              alt: "Cardin | Backend Developer",
+              url: "https://media.discordapp.net/attachments/953754034630717454/999515622801158304/image0_13.jpg",
+              width: 890,
+              height: 890,
+              alt: "Banner",
             },
           ],
         }}
