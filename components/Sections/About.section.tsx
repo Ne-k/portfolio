@@ -13,11 +13,11 @@ const About: NextComponentType = () => {
               <div>
                   <p className="text-3xl font-bold text-white">Cardin Nguyen</p>
                   <p className="mt-1 text-lg text-gray-300">
-                      Backend developer and a student
+                      Backend developer, photographer, gamer, and student
                   </p>
 
                   <p className="mt-4 text-gray-400">
-                      I&apos; m a backend developer who somehow finds <br/> a way to mess stuff up.
+                      I&apos; m a backend developer who somehow  <br/> finds a way to mess stuff up.
                   </p>
 
                   <Link href="/" passHref>
