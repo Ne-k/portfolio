@@ -33,7 +33,7 @@ const Skills = () => {
 
       <p className="text-lg font-medium text-slate-300">
         ...more skills include <span className="text-white">NextJS</span>,{" "}
-        <span className="text-white">reactjs</span>,{" "}
+        <span className="text-white">Reactjs</span>,{" "}
         <span className="text-white">C++ </span>{" "}
       </p>
     </div>
