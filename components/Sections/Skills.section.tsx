@@ -8,7 +8,13 @@ const Skills = () => {
       <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
-          <span className="text-white">Javascript</span>
+          <span className="text-white">Photography</span>
+          &nbsp;I take photos with a Nikon D7500 DLSR cameras
+        </p>
+
+        <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
+          <BsArrowRightShort size="30" />
+          <span className="text-white">Javascript </span>
           &nbsp;the language I use for small projects I want done quickly
         </p>
 
