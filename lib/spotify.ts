@@ -1,6 +1,6 @@
 const client_id = process.env.SPOTIFY_CLIENT_ID;
 const client_secret = process.env.SPOTIFY_CLIENT_SECRET;
-const refresh_token = process.env.SPOTIFY_REFRESH_TOKEN;
+const access_token = process.env.SPOTIFY_ACCESS_TOKEN;
 
 const basic = btoa(`${client_id}:${client_secret}`);
 const NOW_PLAYING_ENDPOINT = `https://api.spotify.com/v1/me/player/currently-playing`;
@@ -11,22 +11,19 @@ const getAccessToken = async () => {
   const response = await fetch(TOKEN_ENDPOINT, {
     method: 'POST',
     headers: {
-      Authorization: `Basic ${basic}`,
+      Authorization: `Basic ${btoa(client_id + ':' + client_secret)}`,
       'Content-Type': 'application/x-www-form-urlencoded'
     },
-    body: new URLSearchParams({
-      grant_type: 'refresh_token',
-      refresh_token
-    })
+    body: "grant_type=client_credentials"
   });
 
-  return await response.json();
+  return await response.json()
 };
 
 export const getNowPlaying = async () => {
-  const { access_token } = await getAccessToken();
+  //const { access_token } = await getAccessToken();
 
-  return fetch(NOW_PLAYING_ENDPOINT, {
+  return await fetch(NOW_PLAYING_ENDPOINT, {
     headers: {
       Authorization: `Bearer ${access_token}`
     }
@@ -34,9 +31,9 @@ export const getNowPlaying = async () => {
 };
 
 export const getTopTracks = async () => {
-  const { access_token } = await getAccessToken();
+  //const { access_token } = await getAccessToken();
 
-  return fetch(TOP_TRACKS_ENDPOINT, {
+  return await fetch(TOP_TRACKS_ENDPOINT, {
     headers: {
       Authorization: `Bearer ${access_token}`
     }
