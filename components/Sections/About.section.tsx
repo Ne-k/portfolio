@@ -18,6 +18,17 @@ const About: NextComponentType = () => {
           I&apos;m a backend developer who somehow finds <br/> a way to mess stuff up.
         </p>
 
+          <Link href="/" passHref>
+              <a
+                  className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+                  Read my Resume (Coming Soon)
+                  <HiOutlineArrowNarrowRight />
+              </a>
+          </Link>
+
       </div>
 
       <div className="hidden custom:block">
