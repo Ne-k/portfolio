@@ -4,7 +4,6 @@ import {
   BsSpotify,
   MdEmail,
   AiOutlineGithub,
-  AiOutlineTwitter,
     FaInstagram,
     FaDiscord
 } from "../Misc/Icons.collection";
@@ -26,6 +25,8 @@ const Contact: NextComponentType = () => {
           <Icon icon={<BsSpotify />} url="https://open.spotify.com/user/mewz8iujhbqn1rwndb37q7tda"/>
 
         <Icon icon={<MdEmail />} url="mailto:Nekk.ng3@gmail.com" />
+
+
 
 
       </div>
