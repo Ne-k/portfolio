@@ -21,6 +21,19 @@ const Projects: NextComponentType = () => {
             </div>
           </a>
         </Link>
+
+          <Link href="https://discord.com/oauth2/authorize?client_id=926687914174341130&scope=bot+applications.commands&permissions=1377342712950" passHref>
+              <a
+                  className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#34FFE9] to-[#3454FF] p-1 text-white duration-100 hover:scale-105"
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+                  <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
+                      <p className="text-xl font-semibold">Phishem</p>
+                      <p className="text-x">Another advanced malicious link detection bot for Discord</p>
+                  </div>
+              </a>
+          </Link>
       </div>
     </div>
   );
