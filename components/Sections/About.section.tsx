@@ -17,7 +17,7 @@ const About: NextComponentType = () => {
                   </p>
 
                   <p className="mt-4 text-gray-400">
-                      I&apos; m a backend developer who somehow  <br/> finds a way to mess stuff up. <br/> Online I&apos;m known as &quot;Nek&quot;
+                      I&apos; m a backend developer who&apos;s been developing <br/> for more then 3 years. <br/> Online I&apos;m known as &quot;Nek&quot;
                   </p>
 
                   <Link href="/" passHref>
