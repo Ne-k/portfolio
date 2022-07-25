@@ -4,10 +4,20 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/test',
-        destination: 'https://google.com',
-        permanent: true,
+        source: '/instagram',
+        destination: 'https://www.instagram.com/nekk.ng/',
+        permanent: true
       },
+      {
+        source: '/github',
+        destination: 'https://github.com/Ne-k',
+        permanent: true
+      },
+      {
+        source: '/spotify',
+        destination: 'https://open.spotify.com/user/mewz8iujhbqn1rwndb37q7tda',
+        permanent: true
+      }
     ]
   },
 
