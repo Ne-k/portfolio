@@ -17,6 +17,11 @@ module.exports = {
         source: '/spotify',
         destination: 'https://open.spotify.com/user/mewz8iujhbqn1rwndb37q7tda',
         permanent: true
+      },
+      {
+        source: '/resume',
+        destination: '/sample.pdf',
+        permanent: true
       }
     ]
   },
