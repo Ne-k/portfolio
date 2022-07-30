@@ -17,7 +17,7 @@ const About: NextComponentType = () => {
                   </p>
 
                   <p className="mt-4 text-gray-400">
-                      I&apos; m a backend developer who&apos;s been<br/> designing and coding successful <br/> projects  for more than 3 years.
+                      I&apos;m a backend developer who&apos;s been<br/> designing and coding successful <br/> projects for more than 3 years.
                   </p>
 
                   <Link href="/" passHref>
@@ -36,8 +36,8 @@ const About: NextComponentType = () => {
               <div className="hidden custom:block">
                   <Image
                       src="/assests/avatar.png"
-                      width="112"
-                      height="112"
+                      width="120"
+                      height="120"
                       className="rounded-full"
                       alt="avatar"/>
               </div>

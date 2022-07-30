@@ -3,6 +3,7 @@ const path = require("path");
 module.exports = {
   async redirects() {
     return [
+
       {
         source: '/instagram',
         destination: 'https://www.instagram.com/nekk.ng/',
