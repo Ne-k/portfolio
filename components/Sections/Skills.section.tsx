@@ -20,8 +20,8 @@ const Skills = () => {
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
-          <span className="text-white">Typescript </span>
-          &nbsp;as the language I use for small private projects
+          <span className="text-white">C++ </span>
+          &nbsp;as the language I use for designing windows apps
         </p>
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
@@ -32,9 +32,9 @@ const Skills = () => {
       </div>
 
       <p className="text-lg font-medium text-slate-300 text-center">
-        ...more skills include <span className="text-white">NextJS</span>,{" "}
-        <span className="text-white">Reactjs</span>,{" "}
-        <span className="text-white">C++ </span>{" "}
+        ...more skills include <span className="text-white">C++</span>,{" "}
+        <span className="text-white">ReactJS</span>,{" "}
+        <span className="text-white">NextJS</span>{" "}
       </p>
     </div>
   );
