@@ -31,6 +31,17 @@ const About: NextComponentType = () => {
                       </a>
                   </Link>
 
+                  <Link href="https://ko-fi.com/cardinnguyen" passHref>
+                      <a
+                          className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                      >
+                          Help support my projects!
+                          <HiOutlineArrowNarrowRight/>
+                      </a>
+                  </Link>
+
               </div>
 
               <div className="hidden custom:block">
