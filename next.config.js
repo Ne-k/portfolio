@@ -21,7 +21,7 @@ module.exports = {
       },
       {
         source: '/resume',
-        destination: '/sample.pdf',
+        destination: '/CN_Resume.pdf',
         permanent: true
       }
     ]
