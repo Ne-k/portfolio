@@ -27,7 +27,7 @@ const Skills = () => {
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <FaJava size="30" />
           <span className="text-white">Java </span>
-          &nbsp; the language I mainly use for FRC team 7034
+          &nbsp; the language I mainly use for robotics
         </p>
       </div>
 
