@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         defaultTitle="Cardin | Backend Developer"
         description="Hey! I'm Cardin, a backend developer and a student"
         openGraph={{
-          url: "https://www.anurag.tech/",
+          url: "https://nekk,vercel.app",
           title: "Cardin | Backend Developer",
           description:
             "Hey! I'm Cardin, a backend developer and a student",
