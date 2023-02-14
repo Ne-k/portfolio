@@ -10,7 +10,7 @@ const Projects: NextComponentType = () => {
 
           <Link href="https://github.com/Ne-k/10332-PowerPlay" passHref>
               <a
-                  className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#D8B4FE] to-[#818CF8] p-1 text-white duration-100 hover:scale-105"
+                  className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#34EBCF] to-[#000000] p-1 text-white duration-100 hover:scale-105"
                   target="_blank"
                   rel="noopener noreferrer"
               >
