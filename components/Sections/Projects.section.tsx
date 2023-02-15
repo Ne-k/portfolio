@@ -30,7 +30,7 @@ const Projects: NextComponentType = () => {
           >
             <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
               <p className="text-xl font-semibold">2022-Rapid-React</p>
-              <p className="text-x">FRC Team 7034 code for the 2021-2022 season</p>
+              <p className="text-x">FRC Team 7034 code for 2021-2022 season</p>
             </div>
           </a>
         </Link>
