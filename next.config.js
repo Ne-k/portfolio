@@ -50,6 +50,10 @@ module.exports = {
   },
 
    */
+  reactStrictMode: true,
+  experimental: {
+    newNextLinkBehavior: false,
+  },
 
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
