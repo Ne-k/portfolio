@@ -222,29 +222,29 @@
     strip-json-comments "^3.1.1"
 
 "@fontsource/jost@^4.5.6":
-  version "4.5.6"
-  resolved "https://registry.npmjs.org/@fontsource/jost/-/jost-4.5.6.tgz"
-  integrity sha512-qPelIv5eAo249dils+1XDwBiUAdyFHucm3xKzHiUc8Cj1T1mIN11J3R8p3FYMlO48Jb65JGJmgIG6W98oLkU0w==
+  version "4.5.13"
+  resolved "https://registry.yarnpkg.com/@fontsource/jost/-/jost-4.5.13.tgz#8dfed7828f336b98119671be3c0bd47071d9daeb"
+  integrity sha512-StvM74Eny5ZkioanZ3JV6RgjTfMnB7mGde1SVoJGUrudxGPCp6kRXRm4CgwgJYarDzLt+jSPESLufHhRVemjrA==
 
 "@fontsource/sen@^4.5.3":
-  version "4.5.5"
-  resolved "https://registry.npmjs.org/@fontsource/sen/-/sen-4.5.5.tgz"
-  integrity sha512-mYqUVtIOk1DSBP95vxLSA2RQBelzNJQ9IXzbY5ymfoD8LODwkKQQzM+cONm8FV92prJPuuN61wb0zivPM1+5RQ==
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/sen/-/sen-4.5.9.tgz#2a1bd456200b1bf6eed34e11a2862baf69dea451"
+  integrity sha512-QN+pW9fq+XNQoVwjrzxlZELSMSaKxUHlFJ1NApNr8b/KyGvRAL+hNVMhT1jBamtzkcI09yiGq7hdnEfo66rFog==
 
 "@gitmoji/commit-types@1.1.5":
   version "1.1.5"
-  resolved "https://registry.npmjs.org/@gitmoji/commit-types/-/commit-types-1.1.5.tgz"
+  resolved "https://registry.yarnpkg.com/@gitmoji/commit-types/-/commit-types-1.1.5.tgz#8ca89aeea4e253a3818ac63206b4eb4f2352c4ff"
   integrity sha512-8D3FZMRY+gtYpTcHG1SOGmm9CFqxNh6rI9xDoCydxHxnWgqInbdF3nk9gibW5gXA58Hf2cVcJaLEcGOKLRAtmw==
 
 "@gitmoji/parser-opts@1.3.0":
   version "1.3.0"
-  resolved "https://registry.npmjs.org/@gitmoji/parser-opts/-/parser-opts-1.3.0.tgz"
+  resolved "https://registry.yarnpkg.com/@gitmoji/parser-opts/-/parser-opts-1.3.0.tgz#7118a512342afd89c895cb2fd95454fa73f377bb"
   integrity sha512-NqfoW12eXMdDJz3g3NHnopEgDoqdY1YshO6XxIVPOqotGTDcjD1sL28AVKskbYveGmHBPdHieRRv6M9Iq7dt4w==
 
 "@humanwhocodes/config-array@^0.9.2":
-  version "0.9.2"
-  resolved "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.9.2.tgz"
-  integrity sha512-UXOuFCGcwciWckOpmfKDq/GyhlTf9pN/BzG//x8p8zTOFEcGuA68ANXheFS0AGvy3qgZqLBUkMs7hqzqCKOVwA==
+  version "0.9.5"
+  resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.9.5.tgz#2cbaf9a89460da24b5ca6531b8bbfc23e1df50c7"
+  integrity sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==
   dependencies:
     "@humanwhocodes/object-schema" "^1.2.1"
     debug "^4.1.1"
