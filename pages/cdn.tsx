@@ -2,7 +2,8 @@ import { GetStaticProps, NextPage } from 'next';
 import { useState } from 'react';
 import fs from 'fs';
 import path from 'path';
-import styles from '../styles/cdn.module.css'; // Import the CSS file
+import styles from '../styles/cdn.module.css'; 
+import Image from 'next/image';
 
 interface Props {
   files: string[];
@@ -70,7 +71,7 @@ const CdnPage: NextPage<Props> = ({ files }) => {
         {files.map((file) => (
       <div key={file} className={styles['image-container']} style={{}}>
       {file.endsWith('.JPG') || file.endsWith('.PNG') ? (
-        <img src={`/cdn/${file}`} alt={file} onLoad={handleImageLoad} style={{ aspectRatio: '1 / 1' }} />
+        <Image src={`/cdn/${file}`} alt={file} onLoad={handleImageLoad} style={{ aspectRatio: '1 / 1' }} />
       ) : (
         <video src={`/cdn/${file}`} controls style={{ aspectRatio: '1 / 1' }} />
       )}
