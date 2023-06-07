@@ -61,18 +61,23 @@ const CdnPage: NextPage<Props> = ({ files }) => {
 
   return (
     <div>
+      <div className={styles['button-container']}>
+        <a href="https://gofile.io/d/5dwCoJ" className={styles['redirect-button']}>
+          Videos
+        </a>
+      </div>
       <div className={styles['image-grid']}>
         {files.map((file) => (
-          <div key={file} className={styles['image-container']}>
-            {file.endsWith('.JPG') || file.endsWith('.PNG') ? (
-              <img src={`/cdn/${file}`} alt={file} onLoad={handleImageLoad} />
-            ) : (
-              <video src={`/cdn/${file}`} controls />
-            )}
-            <a href={`/cdn/${file}`} download className={styles['download-button']}>
-              Download
-            </a>
-          </div>
+      <div key={file} className={styles['image-container']} style={{}}>
+      {file.endsWith('.JPG') || file.endsWith('.PNG') ? (
+        <img src={`/cdn/${file}`} alt={file} onLoad={handleImageLoad} style={{ aspectRatio: '1 / 1' }} />
+      ) : (
+        <video src={`/cdn/${file}`} controls style={{ aspectRatio: '1 / 1' }} />
+      )}
+      <a href={`/cdn/${file}`} download className={styles['download-button']}>
+        Download
+      </a>
+    </div>
         ))}
       </div>
     </div>
