@@ -9,15 +9,12 @@ const ErrorPage: NextPage = () => {
   return (
     <>
       <div className="flex min-h-screen min-w-full flex-col justify-center bg-[#fafdfe]">
-        <div className="flex justify-center w-full">
-          <Image
-              src="/assests/404.svg"
-              width="800"
-              height="400"
-              alt="404 illustration"
-              className="center-image"
-          />
-        </div>
+        <Image
+          src="/assests/404.svg"
+          width="800"
+          height="400"
+          alt="404 illustration"
+        />
 
         <div className="flex w-full flex-col items-center justify-center">
           <p className="text-md text-center font-sen font-medium text-gray-700 sm:text-lg">

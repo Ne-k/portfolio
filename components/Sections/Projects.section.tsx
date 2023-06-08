@@ -8,6 +8,19 @@ const Projects: NextComponentType = () => {
       <p className="text-3xl font-bold text-white text-center">Featured Projects</p>
       <div className="my-8 flex flex-col items-center justify-center gap-10 sm:flex-row">
 
+          <Link href="https://github.com/Ne-k/10332-PowerPlay" passHref>
+              <a
+                  className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#34EBCF] to-[#000000] p-1 text-white duration-100 hover:scale-105"
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+                  <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
+                      <p className="text-xl font-semibold">2022-2023 FTC PowerPlay</p>
+                      <p className="text-x">FTC Team 10332 PowerPlay robot code</p>
+                  </div>
+              </a>
+          </Link>
+
 
         <Link href="https://github.com/2BDetermined-7034/2022-Rapid-React" passHref>
           <a
