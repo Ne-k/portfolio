@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import Link from 'next/link';
+import {HiOutlineArrowNarrowRight} from "react-icons/hi";
 
 const Projects = () => {
     const [repos, setRepos] = useState([]);
@@ -42,8 +43,13 @@ const Projects = () => {
         ['#FFDAC1', '#E2F0CB'], // orange and light green
         ['#FFB7B2', '#FF9AA2'], // red and salmon
         ['#B5EAD7', '#AFCBFA'], // teal and blue
-        // Add more pastel color pairs as desired
+        ['#FAD2E1', '#99DDCC'], // pastel pink and mint
+        ['#FFC8DD', '#D6AEDD'], // pastel pink and lavender
+        ['#F3EAC2', '#F5D6BA'], // light yellow and peach
+        ['#ECD4FF', '#FFC4E1'], // light purple and pastel pink
+        ['#A8E6CF', '#FDFFAB'], // mint green and pastel yellow
     ];
+
 
     const getRandomPastelGradient = () => {
         const randomIndex = Math.floor(Math.random() * pastelColors.length);
@@ -52,7 +58,13 @@ const Projects = () => {
 
     return (
         <div className="my-16 px-3 font-sen" id="projects">
-            <p className="text-2xl sm:text-3xl font-bold text-white text-center">Featured Projects</p>
+            <p className="text-2xl sm:text-3xl font-bold text-white text-center">
+                <Link href="https://github.com/Ne-k" passHref>
+                    <span className="hover:font-bold cursor-pointer">
+                        <u>Recent Projects</u>
+                    </span>
+                </Link>
+            </p>
             <div className="my-8 flex flex-col items-center justify-center gap-10 sm:flex-row">
                 {repos.map(repo => {
                     const [colorStart, colorEnd] = getRandomPastelGradient();
@@ -68,7 +80,8 @@ const Projects = () => {
                                 background: `linear-gradient(to right, ${colorStart}, ${colorEnd})`
                             }}
                         >
-                            <div className="flex h-full w-auto flex-col items-center justify-center rounded-lg bg-primary px-2 py-2 text-center font-medium">
+                            <div
+                                className="flex h-full w-auto flex-col items-center justify-center rounded-lg bg-primary px-2 py-2 text-center font-medium">
                                 <p className="project-name text-lg font-semibold break-all">{repo.name}</p>
                                 <p className="project-description text-sm break-words">{repo.description || 'No description available.'}</p>
                             </div>
