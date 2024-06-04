@@ -17,7 +17,8 @@ const About: NextComponentType = () => {
                   </p>
 
                   <p className="mt-4 text-gray-400">
-                      I&apos;m a backend developer who&apos;s been<br/> designing and coding successful <br/> projects for more than 5+ years.
+                      I&apos;m a backend developer who&apos;s been<br/> designing and coding successful <br/> projects
+                      for more than 5+ years.
                   </p>
 
                   <Link
@@ -28,7 +29,7 @@ const About: NextComponentType = () => {
                       className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
                   >
                       Read my Resume!
-                      <HiOutlineArrowNarrowRight />
+                      <HiOutlineArrowNarrowRight/>
                   </Link>
 
 
@@ -46,13 +47,17 @@ const About: NextComponentType = () => {
               </div>
 
               <div className="hidden custom:block">
-                  <Image
-                      src="/assests/avatar.png"
-                      width="120"
-                      height="120"
-                      className="rounded-full"
-                      alt="avatar"/>
+                  <div className="rounded-full p-2" style={{background: 'linear-gradient(135deg, #d7e3fc, #abc4ff)'}}>
+                      <Image
+                          src="/assests/avatar.png"
+                          width="140"
+                          height="140"
+                          className="rounded-full"
+                          alt="avatar"
+                      />
+                  </div>
               </div>
+
           </div>
       </>
   );
