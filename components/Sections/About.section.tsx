@@ -13,7 +13,7 @@ const About: NextComponentType = () => {
               <div>
                   <p className="text-3xl font-bold text-white">Cardin Nguyen</p>
                   <p className="mt-1 text-lg text-gray-300">
-                      Backend developer, photographer, gamer, and student. Online I&apos;m known as &quot;Nek&quot;
+                      Backend developer, photographer, and student. Online I&apos;m known as &quot;Nek&quot;
                   </p>
 
                   <p className="mt-4 text-gray-400">
