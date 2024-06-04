@@ -47,16 +47,18 @@ const About: NextComponentType = () => {
               </div>
 
               <div className="hidden custom:block">
-                  <div className="rounded-full p-2" style={{background: 'linear-gradient(135deg, #d7e3fc, #abc4ff)'}}>
-                      <Image
-                          src="/assests/avatar.png"
-                          width="140"
-                          height="140"
-                          className="rounded-full"
-                          alt="avatar"
-                      />
+                  <div className="rounded-full p-2 bg-gradient-to-r from-blue-200 to-blue-400">
+                      <div className="relative w-36 h-36">
+                          <Image
+                              src="/assests/avatar.png"
+                              layout="fill"
+                              className="rounded-full mask mask-circle"
+                              alt="avatar"
+                          />
+                      </div>
                   </div>
               </div>
+
 
           </div>
       </>
