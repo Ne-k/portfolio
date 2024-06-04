@@ -1,4 +1,5 @@
 import { BsArrowRightShort, FaJava, FaNodeJs, SiTypescript, FiCamera } from "../Misc/Icons.collection";
+import {SiPython} from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -25,7 +26,7 @@ const Skills = () => {
         </p>
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
-          <SiTypescript size="30" />
+          <SiPython size="30" />
           <span className="text-white">Python </span>
           &nbsp; to automate my daily tasks
         </p>
