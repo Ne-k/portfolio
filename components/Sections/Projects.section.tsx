@@ -11,7 +11,7 @@ const Projects = () => {
             try {
                 const response = await fetch('https://api.github.com/users/Ne-k/repos');
                 if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                    new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
                 const filteredRepos = data
