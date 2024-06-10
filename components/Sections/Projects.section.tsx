@@ -34,7 +34,23 @@ const Projects = () => {
     }
 
     if (!repos.length) {
-        return <p>No projects to display.</p>;
+        return <Link
+            key="na"
+            href="/"
+            passHref
+            target="_blank"
+            rel="noopener noreferrer"
+            className="h-auto min-h-[7rem] max-w-[20rem] cursor-pointer rounded-lg p-1 text-white duration-100 hover:scale-105"
+            style={{
+                background: `linear-gradient(to right, #FFD1DC, #FF9E9D)`
+            }}
+        >
+            <div
+                className="flex h-full w-auto flex-col items-center justify-center rounded-lg bg-primary px-2 py-2 text-center font-medium">
+                <p className="project-name text-lg font-semibold break-all">No Projects Found...</p>
+                <p className="project-description text-sm break-words">No description available.</p>
+            </div>
+        </Link>
     }
 
     const pastelColors = [
@@ -61,7 +77,7 @@ const Projects = () => {
             <p className="text-2xl sm:text-3xl font-bold text-white text-center">
                 <Link href="https://github.com/Ne-k" passHref>
                     <span className="hover:font-bold cursor-pointer">
-                        <u>Recent Projects</u>
+                        <u>Recently Updated Projects</u>
                     </span>
                 </Link>
             </p>
